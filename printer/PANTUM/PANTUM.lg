@@ -2,6 +2,8 @@ htfcss: cmti  font-style: italic;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
 htfcss: cmmi font-style: italic;
 htfcss: cmmib font-style: italic; font-weight: bold;
 File: PANTUM.html
@@ -136,6 +138,7 @@ Font("cmmi","10","10","100")
 Font("cmsy","5","5","100")
 Font("cmsy","7","7","100")
 Font("cmsy","10","10","100")
+Font("cmbx","10","10","100")
 Font("cmbsy","10","10","100")
 Font("cmbsy","7","7","100")
 Font("cmbsy","5","5","100")

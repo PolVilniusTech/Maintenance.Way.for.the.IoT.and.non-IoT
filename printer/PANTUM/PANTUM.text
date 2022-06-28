@@ -32,6 +32,13 @@
    \subsection{Pantum Internet Portal}
 
    For testing out the printer were taken good for IoT small-medium Computer device Raspberry Pi 3 B+ (following - RPi). With the printer comes all the Apps and Drivers in one small CD. This is the First Problem - the CD DVD burner-reader, because this small size Computer normally does not need such functionality. Attaching external CD-DVD reader to RPi made Small RPi Monitor to blink repeatedly. For this way helps that Pantum Company has Internet Portal. In the https://global.pantum.com were luck to find something for "Linux" based systems.\\
+   
+   \href{www.urlvoid.com}{URLVoid} tool displays Server Location at United States of America.\\ 
+   Whois Lookup shown No match for GLOBAL.PANTUM.COM\\
+   Registrar of PANTUM.COM: Todaynic.com, Inc.\\
+   Registrant State/Province: GD.\\
+   Registrant Country: CN.\\
+   Additional Information of "DNSSEC: unsigned". More: \href{https://www.cloudflare.com/dns/dnssec/how-dnssec-works/}{DNSSEC}\\
 
    \subsection{The Problem}
    Web Site Portal does not provide File Integrity Protection for Downloads, at least MD5 sums, so it does not possible to approve Successful downloads. [File Integrity]\\
@@ -136,6 +143,9 @@ By turning off the JS probably effective connectivity and (or) control with the 
    Unfortunately there no Option to choose "Public-Key: (4096 bit)" which could be valid a bit longer. [OpenSSL]\\
 
    And a lil more. [2nd and 3rd Idea]\\
+   
+   Printer configuration Available over: RPi $ > $ Preferences $ > $ Print Settings 
+   Printing via USB port on Raspbian GNU/Linux 11 (bullseye) were Success.
 
    % End of the chapter no. 2
    \centering
@@ -156,6 +166,7 @@ By turning off the JS probably effective connectivity and (or) control with the 
    |No Licenses| - it helps a lil bit better to hide the structure of the Program / Libraries. It does not help to give advices.\\
    
    \subsection{Way it would be better}
+   \label{link:way}
    
    |HTTP and HTTPS at the same time| Let choose for the User to turn off not needed Option.\\
    |HTML| from 2014-10-28 should be offered to migrate into HTML5.\\
@@ -167,7 +178,7 @@ By turning off the JS probably effective connectivity and (or) control with the 
    
    |Single Login| Usually in some Linux distributions You are able to create more than one Admin Accounts and for this case such "Single Login" would be Disabled for Log In Option. All for making "Brute Force" Login Attack less useful. Pantum let's to "Restore Factory Defaults" easily, so it would be better Option to provide Secure Audit Log for Active Logins into the CPI.\\
    |Idea| Various systems already allows to set up some local language parameter, so that's nothing new.\\
-   |2nd and 3rd Idea| Common UNIX Printing System (CUPS) print server with it own web-based administration interface. Ref. \href{www.cups.org}{CUPS}\\
+   |2nd and 3rd Idea| Common UNIX Printing System (CUPS) supports internet printing protocol and line printer daemon protocol. CUPS print server with it own web-based administration interface. Ref. \href{www.cups.org}{CUPS}\\
    |2nd and 3rd Idea| Create Linux Drivers by looking into specific Market where Do You see this M6550NW Product belongs. Ref. \href{https://en.wikipedia.org/wiki/Linux_distribution Niche_distributions}{Linuxes}\\
 
    % End of the chapter no. 3
@@ -188,7 +199,8 @@ By turning off the JS probably effective connectivity and (or) control with the 
 
    \section{Annexes}
    
-   Annex A. Similar OpenSSL setup as with PANTUM printer. Only the problem that does Customer Support w/o help of System Admin could give some advices from App perspective like Mozilla Firefox, if we would assume the Institution manage and control their own list of certs in Organisation. Credits: D.Klein
+   Annex A. Similar OpenSSL setup as with PANTUM printer. Only the problem that does Customer Support w/o help of System Admin could give some advices from App perspective like Mozilla Firefox, if we would assume the Institution manage and control their own list of certs in Organisation. Credits: D.Klein\\
+   Annex B. Results for the Port Scan of the System. Credits: Vilnius Tech\\
    
    \subsection{A. OpenSSL}
    
@@ -573,5 +585,28 @@ By turning off the JS probably effective connectivity and (or) control with the 
    p.s.\\
    In this example were used port of 8443.\\
    The Default SSL/TLS port of 443 are more preferred.\\
+   
+   \subsection{B. Port Scan}
+   
+   port 9200/tcp with service of wireless application protocol, wireless session protocol\\
+   port 9100/tcp with service of raw print, something as netcat to submit file containing the Page Description Language like PostScript or PCL filled data for the print\\
+   port 631/tcp with service of internet printing protocol/ssl\\
+   port 515/tcp with service of printer, Line Printer Daemon Protocol\\
+   port 443/tcp with service of https/ssl\\
+   port 80/tcp with service of http\\
+
+   \textbf{Additional Information}\\
+   
+   Regarding Headers part: \prettyref{link:way}\\
+   
+   http* related functionality uses Experimental Headers:\\
+   | X-Frame-Options: SAMEORIGIN\\
+   | X-Content-Type-Options: nosniff\\
+
+   http* server response time are more than 1s.\\
+   http* server supports HEAD and POST http methods.\\
+   ssl certificate uses rsa algorithm with 2048 key size, which lasts for 10 years from the time when it was generated.\\
+
+   Possible similarities with the HP printers.\\
 
 \end{document}
