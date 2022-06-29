@@ -1,0 +1,210 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{prettyref}
+\title{Adapter Huawei E5573Cs-322\\
+\large ARTICLE}
+\date{\small\today (Tex-comp)}
+\author{VilniusTech Community}
+\begin{document}
+
+   \maketitle
+   \newpage
+   \pagenumbering{gobble}
+   
+   % intro
+   \section{E5573Cs-322 router Intro}
+
+   In the following e.Shop in the Republic of Lithuania were found Gem with Normal Specification and Good Features. Retrieved from URL:\\ 
+\href{https://pigu.lt/kompiuterine-technika/-tinklo-iranga/marsrutizatoriai/marsrutizatoriai-huawei-e5573?id=23965525}{e.Shop}\\
+
+   In example: provided Information of Compatibility with any Lithuanian or Abroad Telecommunication Operators including pre-paid cards. Other statement in the e.Shop - router has compitability with ALL operating systems.\\
+
+   Area of Concentration in this case are the Control Panel Interface of the device.\\
+   
+   % end of the intro
+   \centering
+   \em{---}\em
+   % chapter no. 1
+
+   \section{Huawei (from Online sources)}
+   \subsection{Huawei Internet Portal}
+
+   To testing out the router were used IoT small-medium Computer device Raspberry Pi 3 B+ (following - RPi). With the router alongside are provided Quick Start Guide which gives pretty good Picture about the device. In this Guide there are provided (1) "Safety Information" chapter with info about (2) Copyright rights, (3) Privacy Policy, (4) Software Update and etc. Warranty Card given with 18 (eighteen) translations.\\
+
+   \subsection{The Problem}
+   Web Site Portal does not provide File Integrity Protection for Downloads, at least MD5 sums, so it does not possible to approve Successful downloads. [File Integrity]\\
+
+   \subsection{Firmware and MobileWiFi tool Available}
+   In the Product Support were found similar E5573Bs-322 router device.\\
+
+   Firmware are for MacOS Systems.\\
+   Alongside MobileWiFi tool are provided User Guide for installation on MAC OS.\\
+   Any installations were not tested. 
+
+   \subsection{User Guide Available}
+
+   There are "E5573B Quick Start-(E5573Bs-322,01,en).pdf" Guide (following - Online Documentation) provided.\\
+   Online Documentation are newer comparing with Documentation which would come with the Product from e.Shop.\\
+   In the Online Documentation are given Tips for Troubleshooting which are not given with a Product E5573.\\
+   Online Documentation does not provide "Safety Information" chapter.
+   Product E5573 Documentation at least comes with no less than 22 translations to various languages including language of Republic of Lithuania. Online Documentation does not provide translations, so it would be wise to keep the Docs.
+   
+   According provided Privacy Policy in URL: \href{http://consumer.huawei.com/privacy-policy}{HUAWEI Privacy Policy} there are situations when it would need to register at Huawei with "Huawei ID" and provide following information: first name, last name, e.mail, mobile phone no., info of Your request, shipping address and payment method. Privileges are given to use Document Storage in the "Cloud" Solution.  In this case Huawei would be responsible for securing Your provided information.\\
+   In the Privacy Policy (I. chapter) there is something as the Company are in need for "executing requirements according of some jurisdictions in need to detect user identities of the user accounts in live and non-stop fashion", so depending by non-listed jurisdictional document they are doing this for everyone. Listed need to fight with electronical (entertainment) games addiction. Listed need to meet the requirements to be able make online shop purchases. In these cases would be necessary to provide from the Government provided authentic for the person unique "Identification Document".\\
+   In the Privacy Policy (IX. chapter) displayed situation how abroad of the the People's Republic of China each Huawei e.Shop(s) has meet number of requirements of their location specific jurisdictional subject, which takes care for private information in the location. This is sample of "Introduction" and these requirements should be found in each of those e.shops. Distributed documentation approach. In centralised approach there would be list of each e.shop from where You could directly link into the right place. So, there would be questions to the Customer Service.\\
+   These cases when regular shops is way modern than online shopping and the difference lies only in the location of purchase (local, international) and the Age of Person. In this case, we could argue that there are not named the regulations about weapons and military equipment or being against criminal/brutal activity and it Services and (or) their transportation and so. This is a big blow to the "legal acts" Side, if their Sources and (or) Documents: (1) does not provide online access to act information, (2) from provided information there could be done very different interpretations, (3) there are no "begin" and "end" time of these documents, (4) there are no direct and safe link to the newest version of the document. For further development would be required the access with usage of data-unique (i.e. Identification No. without duplicates) item and (or) device which would be providen by True Identity Authority with real Privileges to do so. If those points would be met, then there would be no shame to list these regulations by their real names.\\
+   In general "Identification Documents" are requested by other e.Services too, i.e. github.com has something like that for approving real identity of Educators. In this case, there should be suggested to proceed request to the Education organisation directly and the Educator himself could press the button or just click to approve himself. Such insecure wave of personal "Identification Document" path would be skipped. It's a Shame on e.Services nowadays, especially from Organisational Standpoint. Unfortunately, no one cares for Security until someone finds the problem, so Technical Standpoint requires some Cybersecurity knowledge in it.\\
+   
+   \href{http://consumer.huawei.com/}{HUAWEI} according \href{https://www.urlvoid.com/}{URLVoid} has some ties with Akamai Technologies, Inc. (Internet and Cloud Computing). This is Sample of American company for e.Services in the European Union. Domain is active from the Year of 2000. Domain registered by Huawei Technologies Co., Ltd. Guangdong CN. Additional Information of "DNSSEC: unsigned". More: \href{https://www.cloudflare.com/dns/dnssec/how-dnssec-works/}{DNSSEC}
+   
+   Provided statement - "This device may be operated in all member states of the EU".
+   In the Internet is possible to access the \href{https://sanctionsmap.eu/#/main}{EU Sanctions Map} which shows that there enforced only single \href{https://sanctionsmap.eu/#/main/details/10/lists?search=%7B"value":"China"}{Arms embargo}. So with the statement regarding the Product E5573Cs-322 everything is OK.
+
+   \subsection{Regulations and Standards (from Safety Information) viewpoint} 
+   Compliance with any Regulations of the Eurasian Economic Union (EAEU or EEU) - nil.\\
+   Compliance with - Regulations of the European Union (EU) - Available.\\
+   Compliance with - Regulations of the United States of America - nil.\\
+   Trademarks of ETSI, Wi-Fi Alliance provided.
+   International - IEC/EN/UL standards - Available.\\
+
+   \subsection{Compatibility}
+   From the searches there are stated that the Applicable Products like E5573, HUAWEI Mobile WiFi 2 Plus has Compatibility with macOS 12.x system.\\
+   From URL \href{https://consumer.huawei.com/en/routers/}{Official} there are shown newer version of HUAWEI Mobile WiFi 3 (E5785), which e.Shop allows to purchase too (Huawei E5785-330).\\
+
+   % End of the chapter no. 1
+   \centering
+   \em{---}\em
+   % chapter no. 2
+
+   \section{E5573Cs router Admin Panel}
+   \subsection{Web Admin Panel}
+
+   Access to Web Admin Panel Available from Wireless Network Side Only.\\
+   Wireless Network by default are set to "WPA2-PSK". Selection for "None (Open)" is Available in the WLAN Basic Settings. The Option of "WEP" is Available too.\\
+   
+   Web Admin Panel instead of helpful information per menu provides Professional Mobile WiFi "Help" User Manual.\\
+   
+   Web Admin Panel provides Statistical information about Data Stream Volume per Connection, Monthly Data and Total Data. It also let us see the Time for how long it were Active. From (Authenticated) User Input there is possible to define "Start date" (wrong), "Monthly data plan" (ok), Threshold (ok). From Documentation perspective it sounds that "Threshold" controls only appearance in the "Statistic" Page. The "Start date" represents the single day of the Month from when the Data Plan should be start to do actual counting.\\
+   
+   It's cool that Session Identificator for the Web Admin Panel is set to "httpOnly" and after specific Time Users are getting log out for being idle or by inactivity. The problem with "httpOnly" attribute is when You start Sniffing the Data Traffic there would be Session Identificator presented unencrypted. Some tech could not even know about such attribute as "httpOnly", so when using HTTPS it still would be provided unencrypted. In other hand Web Admin Panel does not provide possibility to the HTTPS in the first place by responding "Unable to connect" for URL: \href{https://192.168.8.1/html/home.html}{the Home Page}\\  
+
+   Web Admin Panel has manual "Update" way. In the menu "Update" it shows "Software version" and "Web UI version" of the instrument E5573Cs. It would be cooler than that, if in addition of this information alongside would provide information which is Available from Online Sources, so You would not need to Click the Button "Check for updates", if there is no reason for that. In other hand there should exist dynamic notification in the Web Page, if the Update from the Official API Source is Available.\\
+   
+   Web Admin Panel Login Form accepts only password with "maxlength" of 15 (fifteen). This is the Problem. Nowdays of course would be more wise to suggest authentication using Ubikeys or some sort of certificate authentication using Your own Storage Device.\\
+   
+   From HTML perspective there are compliance with no less than HTML4 version. No "title" HTML tag defined. There are some CSRF tokens who protects the device from negative effects from the "outside" while People are surfing through the Net.\\ 
+   
+   Web Admin Panel are using 1.7.2 jQuery (2012-03-21). According the Year which are provided in the User Guide "Copyright" statement of 2018 there should be already 3.3 Version of jQuery Available.\\
+   
+   From Web Admin Panel it could be assumed that Support library for Security "OpenSSL" is not used. From the Year of 2022 "OpenSSL" already has 3rd Major version. All Protective means in Web Admin Panel are implemented using JavaScript.\\
+   
+   Best of the Information provided for common device would be data about "OPEN_SOURCE_SOFTWARE_NOTICE" and the "Warranty Disclaimer".\\
+   There listed Software as:\\
+   Android - platform - abi - cpp 4.4_r1\\
+   Android - platform - bionic 4.4_r1 bionic 4.4.2_r1\\
+   Android - platform - external - bison 2.7 bison 4.4.2_r1 checkpolicy 2.1.11 gtest 1.6.0 libselinux 4.4_r1 libsepol 2.2 sepolicy 4.4_r1 yaffs2 4.4_r1\\
+   Android - platform - prebuilts - misc 4.4.2_r1 qemu-kernel 4.4.2_r1\\
+   Android - platform - prebuilts - gcc - linux-x86 - arm - arm-linux-androideabi-4.7 4.3_r1\\
+   Android - platform - prebuilts - gcc - linux-x86 - arm-linux-androideabi-4.6\\
+   Android - platform - system - core 4.4_r1 extras 4.4_r1 libcore 4.4_r1 build 4.4_r1 build 4.4.2_r1\\
+   BusyBox 1.21.1\\
+   conntrack-tools v1.0.0\\
+   Ethernet bridge tables - etables 2-0-9-2\\
+   gettext 0.19.8\\
+   IEEE 802.1d ethernet bridging-utils-1.1\\
+   iproute2 - ss091226 - Linux Foundation 2.6.23\\
+   iptables 1.4.9.1\\
+   JSON 1.00\\
+   libiconv 1.13.1\\
+   libnl - Netlink Library 2.0\\
+   libqrencode 3.4.2\\
+   linux-linaro-stable (LSK) Network Stack 3.4.5 (kaber@trash.net)\\
+   Linux IPv6 Router Advertisement Daemon - radvd 1.4\\
+   MiniUPnP Project Daemon 1.0-RC12\\
+   netfilter 3.4.5\\
+   npd6 0.4.6\\
+   OpenSSL 1.0.1p\\
+   OSIP Library 2.0.9\\
+   siproxd - SIP proxy/masquerading daemon 0.5.10 (tries@gmx.net)\\
+   WIDE-DHCPv6 20081615\\
+   wpa_supplicant - IEEE 802.1X, WPA, WPA2, RSN, IEEE 802.11i 0.7.3\\
+   zlib 1.2.3\\
+   $ update soon $\\
+   
+   IPV6 Address shown as "Unknown" in the Device Information of the System Settings. Apart that there are great features shown in "Update Settings", which allows to Enable: (1) Update without log in, (2) Automatic install of the Critical Updates, (3) Download the update and install without needing to click the Button. Update would commence after reboot.\\
+
+   % End of the chapter no. 2
+   \centering
+   \em{---}\em
+   % chapter no. 3
+
+   \section{Final Thoughts}
+   
+   Nowadays exists even Mobile Phones (non-Smart Phones) who has WiFi Hotspot, so router device is always nice to have. Not bad device whats-o-ever.\\
+
+   % End of the chapter no. 3
+   \centering
+   \em{---}\em
+   % chapter Annex 
+
+   \section{Annex}
+   
+   \textbf{Port information and Other informative data}\\
+      
+   192.168.8.1 latency is up to 0.0030s (latency).\\
+
+   53 and 80 ports open.\\
+
+   PORT   STATE SERVICE VERSION\\
+   53/tcp open  domain  (unknown banner: BIND)\\
+   | dns-nsid:\\ 
+   |_  bind.version: BIND\\
+   | fingerprint-strings:\\ 
+   |   DNSVersionBindReqTCP:\\
+   |     version\\
+   |     bind\\
+   |_    BIND\\
+   
+   80/tcp open  http    WebServer\\
+   | fingerprint-strings:\\ 
+   |   GenericLines:\\
+   |     HTTP/1.1 400 Bad Request\\
+   |     Server: WebServer\\
+   |     Date: Thu, 01 Jan 1970 00:00:00 GMT\\
+   |     Cache-Control: no-cache,no-store\\
+   |     Content-Type: text/html; charset=iso-8859-1\\
+   |     Content-Length: 231\\
+   |     Connection: close\\
+   $ <...> $\\
+   |     $<$HEAD$><$TITLE$>$400 Bad Request$</$TITLE$></$HEAD$>$\\
+   $ <...> $\\
+   |   HTTPOptions, RTSPRequest, SIPOptions:\\ 
+   |     HTTP/1.1 501 Not Implemented\\
+   $ <...> $\\
+   |_http-server-header: WebServer\\
+   | http-title: Site doesn't have a title (text/html).\\
+   |_Requested resource was http://www.huaweimobilewifi.com/html/index.html\\
+
+   From MAC Address it known that device belongs to "Huawei Technologies".\\
+   Device type known as "general purpose", so it would say as: for common usage.\\
+
+   Running: Linux 2.6.X|3.X\\
+   OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3\\
+   OS details: Linux 2.6.32 - 3.10\\
+
+   \em{---}\em
+
+   Apart from 192.168.8.1 from other IPv4 (Class C) Scan there should be provided "general purpose" information of:\\
+
+   Device type: switch|router|power-device|general purpose|printer|specialized\\
+
+   Running: Adtran AOS 10.X|18.X, Adtran embedded, Eaton embedded, Fujian Ruijie embedded, HP HP-UX 11.X, Lexmark embedded, Microsoft Windows 2000, NTI embedded\\
+
+   OS CPE: cpe:/o:adtran:aos:10 cpe:/o:adtran:aos:18.02.01.00.e\\ 
+   cpe:/h:eaton:powerware_9170 cpe:/h:fujianruijie:star-s2800\\
+   cpe:/o:hp:hp-ux:11.23 cpe:/o:microsoft:windows_2000::sp4:server\\
+
+   \em{---}\em
+
+\end{document}
