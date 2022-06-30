@@ -102,36 +102,50 @@
    
    Best of the Information provided for common device would be data about "OPEN_SOURCE_SOFTWARE_NOTICE" and the "Warranty Disclaimer".\\
    There listed Software as:\\
+   armucos-sys\\
+   Android 4.2 4.4.2\\
    Android - platform - abi - cpp 4.4_r1\\
    Android - platform - bionic 4.4_r1 bionic 4.4.2_r1\\
-   Android - platform - external - bison 2.7 bison 4.4.2_r1 checkpolicy 2.1.11 gtest 1.6.0 libselinux 4.4_r1 libsepol 2.2 sepolicy 4.4_r1 yaffs2 4.4_r1\\
+   Android - platform - bootable - bootloader - legacy 4.1.1_r1 recovery 4.2_r1
+   Android - platform - build 4.4_r1 build 4.4.2_r1\\
+   Android - platform - external - bison 2.7 bison 4.4.2_r1 checkpolicy 2.1.11 compiler-rt 4.4_r1 gtest 1.6.0 icu4c 4.4_r1 libselinux 4.4_r1 libsepol 2.2 libxml2 4.4_r1 mksh 4.4_r1 safe-iop 4.4_r1 sepolicy 4.4_r1 stlport 5.2.1 yaffs2 4.4_r1 yaffs2\\
    Android - platform - prebuilts - misc 4.4.2_r1 qemu-kernel 4.4.2_r1\\
    Android - platform - prebuilts - gcc - linux-x86 - arm - arm-linux-androideabi-4.7 4.3_r1\\
    Android - platform - prebuilts - gcc - linux-x86 - arm-linux-androideabi-4.6\\
    Android - platform - system - core 4.4_r1 extras 4.4_r1 libcore 4.4_r1 build 4.4_r1 build 4.4.2_r1\\
+   Android - platform - vendor - huawei-platform-source-memtester 4.3.0 (as huawei-platform-source-memtester version:4.3.0)\\
+   Asterisk 1.2.6 (as Asterisk version: 1.2.6)\\
    BusyBox 1.21.1\\
    conntrack-tools v1.0.0\\
-   Ethernet bridge tables - etables 2-0-9-2\\
+   CMSIS-SP-00300-R3P2-00rel1 CMSIS_RTOS_RTX\\
+   Ethernet bridge tables - ebtables 2-0-9-2\\
+   Filesystem in Userspace exfat\\
    gettext 0.19.8\\
+   GNU Autoconf 2.68\\
    IEEE 802.1d ethernet bridging-utils-1.1\\
    iproute2 - ss091226 - Linux Foundation 2.6.23\\
    iptables 1.4.9.1\\
+   jQuery Corner Plugin 2.11 (as jquery corner plugin 2.11)
+   jQuery Form Plugin 2.69\\
+   jQuery JavaScript Library 1.7.2\\
+   jQuery Tooltip Plugin 1.0.0-rc3 (as jquery tooltip plugin 1.0.0-rc3)\\
    JSON 1.00\\
    libiconv 1.13.1\\
    libnl - Netlink Library 2.0\\
    libqrencode 3.4.2\\
    linux-linaro-stable (LSK) Network Stack 3.4.5 (kaber@trash.net)\\
+   Linux Kernel 3.4.5
    Linux IPv6 Router Advertisement Daemon - radvd 1.4\\
+   log4javascript 1.4.1
    MiniUPnP Project Daemon 1.0-RC12\\
    netfilter 3.4.5\\
    npd6 0.4.6\\
    OpenSSL 1.0.1p\\
    OSIP Library 2.0.9\\
    siproxd - SIP proxy/masquerading daemon 0.5.10 (tries@gmx.net)\\
-   WIDE-DHCPv6 20081615\\
+   WIDE-DHCPv6 20080615\\
    wpa_supplicant - IEEE 802.1X, WPA, WPA2, RSN, IEEE 802.11i 0.7.3\\
-   zlib 1.2.3\\
-   $ update soon $\\
+   zlib 1.2.3 zlib 1.2.5\\
    
    IPV6 Address shown as "Unknown" in the Device Information of the System Settings. Apart that there are great features shown in "Update Settings", which allows to Enable: (1) Update without log in, (2) Automatic install of the Critical Updates, (3) Download the update and install without needing to click the Button. Update would commence after reboot.\\
 
@@ -143,6 +157,7 @@
    \section{Final Thoughts}
    
    Nowadays exists even Mobile Phones (non-Smart Phones) who has WiFi Hotspot, so router device is always nice to have. Not bad device whats-o-ever.\\
+   $ More in Autumn $
 
    % End of the chapter no. 3
    \centering
