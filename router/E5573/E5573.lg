@@ -1,9 +1,6 @@
-htfcss: cmti  font-style: italic;
-htfcss: cmbsy font-weight: bold;
-htfcss: cmbsy font-weight: bold;
-htfcss: cmbsy font-weight: bold;
 htfcss: cmbx  font-weight: bold;
 htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmti  font-style: italic;
 htfcss: cmmi font-style: italic;
 htfcss: cmmib font-style: italic; font-weight: bold;
 File: E5573.html
@@ -14,6 +11,7 @@ Css: p.indent{text-indent:0;}
 Css: p + p{margin-top:1em;}
 Css: p + div, p + pre {margin-top:1em;}
 Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
 Css: @media print {div.crosslinks {visibility:hidden;}}
 Css: a img { border-top: 0; border-left: 0; border-right: 0; }
 Font_Css("4"): .small-caps{font-variant: small-caps; }
@@ -25,7 +23,8 @@ Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; 
 Css: center { margin-top:1em; margin-bottom:1em; }
 Css: td center { margin-top:0em; margin-bottom:0em; }
 Css: .Canvas { position:relative; }
-Css: math { text-indent: 0em; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
 Css: li p.indent { text-indent: 0em }
 Css: li p:first-child{ margin-top:0em; }
 Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -42,7 +41,7 @@ Css: .overline img{ border-top: 1px solid black; }
 Css: td.displaylines {text-align:center; white-space:nowrap;}
 Css: .centerline {text-align:center;}
 Css: .rightline {text-align:right;}
-Css: div.verbatim {font-family: monospace,monospace; white-space: nowrap; text-align:left; clear:both; }
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
 Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
 Css: div.fbox {display:table}
 Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
@@ -85,23 +84,25 @@ Css: div.figure img {text-align:center;}
 Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
 Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
 Css: .reversemarginpar{float:left;}
-Css: .equation td{text-align:center; vertical-align:middle; }
-Css: td.eq-no{ width:5%; }
-Css: table.equation { width:100%; } 
-Css: div.math-display, div.par-math-display{text-align:center;}
-Css: mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
-Css: mtr.hline mtd mo{ display:none }
-Css: math .texttt { font-family: monospace; }
-Css: math .textit { font-style: italic; }
-Css: math .textsl { font-style: oblique; }
-Css: math .textsf { font-family: sans-serif; }
-Css: math .textbf { font-weight: bold; }
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
 Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
-Css: mo.MathClass-op + mi{margin-left:0.3em}
-Css: mi + mo.MathClass-op{margin-left:0.3em}
-Css:  math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
-Css:  math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
+Css: img.cdots{vertical-align:middle;}
 Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 Css: .index-item, .index-subitem, .index-subsubitem {display:block}
 Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
 Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
@@ -110,7 +111,6 @@ Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-b
 Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
 Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
 Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
-Css: .quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
 Css: .verse{white-space:nowrap; margin-left:2em}
 Css: div.maketitle {text-align:center;}
 Css: h2.titleHead{text-align:center;}
@@ -118,31 +118,20 @@ Css: div.maketitle{ margin-bottom: 2em; }
 Css: div.author, div.date {text-align:center;}
 Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
 Css: div.author{white-space: nowrap;}
-Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
-Css: .abstract p {margin-left:5%; margin-right:5%;}
+Css: div.abstract p {margin-left:5%; margin-right:5%;}
 Css: div.abstract {width:100%;}
+Css: .abstracttitle{text-align:center;margin-bottom:1em;}
 Css: figure.float, div.figure {margin-left: auto; margin-right: auto;}
-Css: figure.float img {text-align:center;}
-Css: figure.figure img {text-align:center;}
+Css: figure.float img, figure.figure img {display: block; margin-left: auto; margin-right: auto;}
 Css: figure.figure > p {text-align:center;}
 Css: figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 Css: figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: .abstract{margin:1em;}
 --- characters ---
-Font("cmex","10","10","100")
-Font("cmr","5","5","100")
-Font("cmr","7","7","100")
 Font("cmr","10","10","100")
-Font("cmmi","5","5","100")
-Font("cmmi","7","7","100")
 Font("cmmi","10","10","100")
-Font("cmsy","5","5","100")
-Font("cmsy","7","7","100")
-Font("cmsy","10","10","100")
-Font("cmbx","10","10","100")
-Font("cmbsy","10","10","100")
-Font("cmbsy","7","7","100")
-Font("cmbsy","5","5","100")
 Font("cmr","12","12","100")
 Font("cmr","17","17","100")
 Font("cmr","9","9","100")
 Font("cmti","10","10","100")
+Font("cmbx","10","10","100")

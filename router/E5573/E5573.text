@@ -157,7 +157,14 @@
    \section{Final Thoughts}
    
    Nowadays exists even Mobile Phones (non-Smart Phones) who has WiFi Hotspot, so router device is always nice to have. Not bad device whats-o-ever.\\
-   $ More in Autumn $
+   What would need to take into concern are those OpenSSL 1.0.1p (First Major version) Vulnerabilities which could be misused:
+   CVE-2015-3194 - Severity Moderate - Any application which performs certificate verification is vulnerable including OpenSSL clients and servers which enable client authentication.\\
+   CVE-2015-3195 - Severity Moderate - OpenSSL leak memory.\\
+   CVE-2016-0800 - Severity Moderate - Cross-protocol attack which lead into decryption of TLS sessions by using a server supporting specific SSLv2 and EXPORT cipher suites. This vulnerability is known as DROWN (CVE-2016-0800). Recovering one session key requires the attacker to perform approximately 2^50 computation, as well as thousands of connections to the affected server.\\
+   CVE-2016-2107 - Severity High - A MITM attacker can use a padding oracle attack to decrypt traffic when the connection uses an AES CBC cipher and the server support AES-NI.\\
+   CVE-2016-6304 - Severity High - A malicious client can send an excessively large OCSP Status Request extension and produce Denial Of Service attack through memory exhaustion. Servers with a default configuration are vulnerable even without OCSP support.\\
+   Currently for OpenSSL third Major version is Available.\\
+   Ex-IBM Security Lead has a tip or two how to deal with these Vulnerabilities listed above.
 
    % End of the chapter no. 3
    \centering
