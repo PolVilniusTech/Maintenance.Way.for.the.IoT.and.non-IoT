@@ -164,7 +164,7 @@
    CVE-2016-2107 - Severity High - A MITM attacker can use a padding oracle attack to decrypt traffic when the connection uses an AES CBC cipher and the server support AES-NI.\\
    CVE-2016-6304 - Severity High - A malicious client can send an excessively large OCSP Status Request extension and produce Denial Of Service attack through memory exhaustion. Servers with a default configuration are vulnerable even without OCSP support.\\
    Currently for OpenSSL third Major version is Available.\\
-   Ex-IBM Security Lead has a tip or two how to deal with these Vulnerabilities listed above.
+   Ex-IBM Security Lead Loi Liang Yang has a tip or two for dealing with these Vulnerabilities listed above.
 
    % End of the chapter no. 3
    \centering
